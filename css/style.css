@@ -1,35 +1,34 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-   
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
 }
 
-button#displayQuoteBtn  {
-    width: 20%;
-    height: 7vh;
-    background-color:aliceblue;
+button#displayQuoteBtn {
+  width: 20%;
+  height: 7vh;
+  background-color: pink;
 }
 
 article#quotes-overview {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10%;
 }
 
 p#quotes {
-    height: 9rem;
-    padding: 5% 2%;
-    margin: 2% 0;
-    font-style: italic;
-    background-color: #bedbbe;
-    color: #000000;
+  height: 9rem;
+  padding: 5% 2%;
+  margin: 2% 0;
+  font-style: italic;
+  background-color: lightskyblue;
+  color: #000000;
 }
